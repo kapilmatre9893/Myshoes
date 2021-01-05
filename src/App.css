@@ -1,0 +1,293 @@
+.navbar{
+  z-index: 9999;
+
+}
+.shopingCart {
+  font-size: 20px;
+  color: #efe13c;
+  border: none;
+background: none;
+}
+
+/* banner page */
+
+
+.banner{
+  width: 100%;
+ 
+}
+
+.banner header {
+  width: 100%;
+  background-image: url('./assets/banner.jpg');
+  height: 350px;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.product{
+  width: 25%;
+  padding: 0 12px;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+/* .cover{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  
+} */
+.hot{
+  position: absolute;
+  top: 0;
+  background: red;
+  padding: 5px 20px;
+  color: black;
+}
+.new{
+  position: absolute;
+  top: 0;
+  background: green;
+  padding: 5px 20px;
+  color: black;
+}
+
+.product-image{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+
+}
+
+.product-image img{
+  width: 100%;
+  height: 200px; 
+}
+.product-Details{
+  padding: 15px 10px;
+  text-align: center;
+  background: white; 
+  border-left: 1px solid blanchedalmond;
+  border-right: 1px solid blanchedalmond;
+  border-bottom: 1px solid blanchedalmond;
+}
+.product-name{
+  font-size: 18px;
+  font-weight: 200;
+  margin: 12px 0;
+}
+
+.product-price{
+  font-size: 20px;
+  font-weight: 300;
+  margin: 12px 0;
+  color: #d20c0c;
+}
+
+.add-to-cart{
+  background: yellow;
+  padding: 10px 20px;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.add-to-cart:hover{
+  color: green;
+}
+/* cart */
+.cart-container{
+  margin-top: 100px;
+}
+
+/* Notfound */
+.Notfound-container{
+  margin-top: 100px;
+}
+
+
+/* cart style */
+
+.cart-container{
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.cart-details{
+  width: 75%;
+  border:  1px solid wheat;
+  border-radius: 5px;
+
+}
+
+.cart{
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  padding: 15px 20px;
+}
+.cart-image{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.cart-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.cart-product-name{
+  width: 150px;
+  padding: 0 15px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.cart-product-price{
+  display: inline-block;
+  width: 120px;
+  padding: 0 15px;
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+}
+.inc.btn{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: center;
+  border: 1px solid black;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.dec.btn{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: center;
+  border: 1px solid black;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.product-quantity{
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 15px;
+  width: 70px;
+  text-align: center;
+}
+
+.product-total-price{
+  display: inline-block;
+  width: 170px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.delete-product.btn{
+  border: none;
+  color: #c70000;
+  cursor: pointer;
+}
+
+span.badge.badge-pill.red {
+  border-radius: 50%;
+  background-color: yellow;
+  color: black;
+}
+
+
+
+/* cart summary */
+.cart-summary{
+  width: 25%;
+  padding:  0 0 0 20px;
+   margin-top: 98px;
+}
+.summary{
+  background-color: hotpink;
+  padding: 13px;
+}
+
+.summary h3{
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  color:  mintcream;
+}
+
+.total-items{
+  display: flex;
+  margin: 15px 0;
+}
+.items{
+  width: 50%;
+  text-align: left;
+  font-weight: normal;
+  color: mintcream ;
+}
+
+
+  .items-count{
+   width: 50%;
+   text-align: right;
+   font-weight: bold;
+   color: beige; 
+  }
+
+  .total-price-section{
+    display: flex;
+    margin:  15px 0;
+  }
+
+  .just-title{
+    width: 50%;
+    text-align: left;
+    font-weight: normal;
+    color: mintcream;
+    }
+
+   .items-price{
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+    color: beige; 
+  }
+
+  .stripe-section button{
+    background-color: yellow;
+  }
+
+  li.nav-item a {
+    padding: 0 12px;
+    color: white;
+}
+
+/* Viewproducts */
+.viewPr{
+  padding: 10px 0;
+
+}
+
+.Viewproducts img{
+  width: 100%;
+  height: 400px;
+}
