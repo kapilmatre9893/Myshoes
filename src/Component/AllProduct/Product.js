@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
         <div className="product" key={product.id}>
             <div className="cover">
             <div className="product-image">
-                <Link to={`/ViewProduct/${products.id}`}>
+                <Link to={`/ViewProduct/${product.id}`}>
                     <img className="img-fluid" src={product.image} alt="Not Found" />
                 </Link>
                 </div>

@@ -8,10 +8,10 @@
 
       switch(action.type){ 
       case 'ADD_TO_CART':
-            const chack=shoppingCart.find(product=>product.id === action.id)
+            const chack=shoppingCart.find(product => product.id === action.id)
     
             if(chack){
-                return state;
+                return  state;
             }
             else{
                 product =action.product;

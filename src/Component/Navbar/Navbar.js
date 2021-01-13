@@ -47,13 +47,13 @@ const Navbar= () => {
         </a>
       </li>
       <li className="nav-item">
-        <a href="#!" className="nav-link waves-effect">
-          Sign in
-        </a>
+        <Link to="/login" className="nav-link waves-effect">
+        Login
+        </Link>
       </li>
       <li className="nav-item pl-2 mb-2 mb-md-0">
-        <a href="#!" type="button"
-          className="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light">Sign up</a>
+        <Link to="/Signup" type="button"
+          className="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light">Sign up</Link>
       </li>
     </ul>
 

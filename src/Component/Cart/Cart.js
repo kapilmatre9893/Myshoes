@@ -10,7 +10,7 @@ const  Cart = () => {
       <div className="cart-details" style={{marginTop:'100px'}}>
        { shoppingCart.length>0 ? 
        shoppingCart.map(cart => {
-         console.log(cart);
+        
          return(
          <div className="cart" key={cart.id}>
            <span className="cart-image"><img src={cart.image} alt='not found' /></span>
@@ -36,7 +36,7 @@ const  Cart = () => {
               <div className="items-price">{totalPrice}</div>
               </div>
               <div className="stripe-section">
-                <button className="btn btn-lg btn-block">check Out</button>
+                <button className="btn btn-lg btn-block">Place Order</button>
                 </div>
           </div>
       </div> : ''}
